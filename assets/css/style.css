@@ -1,11 +1,11 @@
 h1 {
 	/*color: #F70201;*/
-	text-shadow: 3px 3px #F70201;
+	text-shadow: 3px 3px rgb(1, 247, 132);
 	font-weight: bold;
 }
 
 h4,h5 {
-	text-shadow: 1px 1px #F70201;
+	text-shadow: 1px 1px rgb(1, 247, 112);
 }
 
 img {
@@ -13,6 +13,6 @@ img {
 }
 
 .btn.btn-primary {
-	text-shadow: .25px .25px #F70201;
-	border: 1.25px solid #F70201;
+	text-shadow: .25px .25px rgb(1, 247, 194);
+	border: 1.25px solid rgb(1, 247, 227);
 }
