@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Train Scheduler</title>
+	<title>Train Time</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -14,9 +14,7 @@
 
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
-	<!-- Firebase Reference -->
-	<!-- <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script> -->
-		
+	
 	<!-- jQuery Reference -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	
@@ -31,7 +29,7 @@
 	<div class="container bg-primary text-white py-3 mb-3">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 text-center pt-2">
-				<img src="assets/images/thintrain.jpg" alt="Orange Train" height="85%">
+				<img src="assets/images/train.jpg" alt="Train" height="85%">
 			</div>
 			<div class="col-lg-7 col-md-8 col-sm-12 text-center pt-4">
 				<h1>Train Scheduler</h1>
@@ -74,11 +72,11 @@
 					<input type="text" class="form-control" id="destination-input">
 					</div>
 					<div class="form-group">
-					<label for="firsttime-input" class= "font-weight-bold">First Train Time (HH:mm - military time)</label>
+					<label for="firsttime-input" class= "font-weight-bold">First Train Time </label>
 					<input data-format=" hh:mm" type="text" class="form-control" id="firsttime-input">
 					</div>
 					<div class="form-group">
-					<label for="frequency-input" class= "font-weight-bold">Frequency (min)</label>
+					<label for="frequency-input" class= "font-weight-bold">Frequency</label>
 					<input type="number" class="form-control" id="frequency-input">
 					</div>
 					<button type="submit" class="btn btn-primary rounded-0 " id="add-train">Submit</button>
