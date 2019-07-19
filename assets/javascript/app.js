@@ -1,28 +1,30 @@
 // Initialize Firebase
-var config = {
+
     
-      apiKey: "AIzaSyAoMY76rZcUPvwUuGN0nT1McRYweXgMCqA",
-      authDomain: "dontmissyourtrain.firebaseapp.com",
-      databaseURL: "https://dontmissyourtrain.firebaseio.com",
-      projectId: "dontmissyourtrain",
-      storageBucket: "",
-      messagingSenderId: "818810445281",
-      appId: "1:818810445281:web:aaf59df50e2bde36"
-    };
+var firebaseConfig = {
+  apiKey: "AIzaSyBAtX3uiKRM3lb1Y51maU8Jd1PzFJ0t2lI",
+  authDomain: "seriouslydontmissyourtrain.firebaseapp.com",
+  databaseURL: "https://seriouslydontmissyourtrain.firebaseio.com",
+  projectId: "seriouslydontmissyourtrain",
+  storageBucket: "",
+  messagingSenderId: "1025836468995",
+  appId: "1:1025836468995:web:33e090932d1d4616"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
  
-  
-  firebase.initializeApp(config);
-  
+
   // Create a variable to reference the database
   var database = firebase.database();
   
   //Run Time  
-  setInterval(function(startTime) {
-    $("#timer").html(moment().format('hh:mm a'))
-  }, 1000);
+  // setInterval(function(startTime) {
+  //   $("#timer").html(moment().format('hh:mm a'))
+  // }, 1000);
   
   // Capture Button Click
   $("#add-train").on("click", function() {
+    console.log("click")
     // Don't refresh the page!
     event.preventDefault();
   
